@@ -6,6 +6,7 @@ $file = basename( $_SERVER['PHP_SELF'] );
 $no_of_lines = count( file( $file ) );
 
 echo "Helo php";
+echo "Hello wordpress. I love wordpress ";
 
 // Display the result indicating the number of lines in the file
 echo "There are $no_of_lines lines in $file" . "\n";
